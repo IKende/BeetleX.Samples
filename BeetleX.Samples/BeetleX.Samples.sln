@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{B4031B9B-AC0D-4AB5-ABDE-22748E5FB64A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packet", "Packet", "{51B41BDF-18E1-4E0D-8D87-FB750E15BAED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeetleX.BaseServer", "BeetleX.BaseServer\BeetleX.BaseServer.csproj", "{46CA7B5C-F9AE-4E69-9D58-7166D6251DE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeetleX.BaseClient", "BeetleX.BaseClient\BeetleX.BaseClient.csproj", "{D77AFD15-BBBC-4D35-83E3-98494E010AE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeetleX.PacketServer", "BeetleX.PacketServer\BeetleX.PacketServer.csproj", "{C0AB4843-234F-42D7-8DAE-85CFD2501212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeetleX.PacketClient", "BeetleX.PacketClient\BeetleX.PacketClient.csproj", "{FCA7E306-0D7F-4C43-A16D-CF4EE646667E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46CA7B5C-F9AE-4E69-9D58-7166D6251DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46CA7B5C-F9AE-4E69-9D58-7166D6251DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46CA7B5C-F9AE-4E69-9D58-7166D6251DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46CA7B5C-F9AE-4E69-9D58-7166D6251DE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77AFD15-BBBC-4D35-83E3-98494E010AE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77AFD15-BBBC-4D35-83E3-98494E010AE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77AFD15-BBBC-4D35-83E3-98494E010AE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77AFD15-BBBC-4D35-83E3-98494E010AE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AB4843-234F-42D7-8DAE-85CFD2501212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AB4843-234F-42D7-8DAE-85CFD2501212}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AB4843-234F-42D7-8DAE-85CFD2501212}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AB4843-234F-42D7-8DAE-85CFD2501212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCA7E306-0D7F-4C43-A16D-CF4EE646667E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCA7E306-0D7F-4C43-A16D-CF4EE646667E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCA7E306-0D7F-4C43-A16D-CF4EE646667E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCA7E306-0D7F-4C43-A16D-CF4EE646667E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{46CA7B5C-F9AE-4E69-9D58-7166D6251DE7} = {B4031B9B-AC0D-4AB5-ABDE-22748E5FB64A}
+		{D77AFD15-BBBC-4D35-83E3-98494E010AE2} = {B4031B9B-AC0D-4AB5-ABDE-22748E5FB64A}
+		{C0AB4843-234F-42D7-8DAE-85CFD2501212} = {51B41BDF-18E1-4E0D-8D87-FB750E15BAED}
+		{FCA7E306-0D7F-4C43-A16D-CF4EE646667E} = {51B41BDF-18E1-4E0D-8D87-FB750E15BAED}
+	EndGlobalSection
+EndGlobal
